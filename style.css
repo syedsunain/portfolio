@@ -202,7 +202,6 @@ h1 {
   line-height: 1.8;
 }
 
-
 footer {
   padding: 30px 8%;
   border-top: 1px solid #ffffff10;
@@ -247,54 +246,5 @@ footer {
 
   footer {
     padding: 25px 7%;
-  }
-}
-
-.contact {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 28px;
-  margin-top: 24px;
-}
-
-.contact-form,
-.contact-side {
-  padding: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.field {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 18px;
-}
-
-.field input,
-.field textarea {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #777;
-  background: #15151f;
-  color: white;
-  font: inherit;
-}
-
-.field textarea {
-  resize: vertical;
-}
-
-@media (max-width: 700px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
   }
 }
